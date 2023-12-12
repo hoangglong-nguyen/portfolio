@@ -35,8 +35,19 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Intern Front-End Developer</li>
-        <li>Junior Front-End Developer</li>
+        <li>
+          {" "}
+          <b>03/2023 - present: Junior Front-End Developer</b> at Hiaki
+          Innovation{" "}
+        </li>
+        <li>
+          {" "}
+          <b>12/2022 - 03/2023: Intern Developer</b> at Hiaki Innovation{" "}
+        </li>
+        <li>
+          {" "}
+          <b>06/2022 - 12/2022: Online English Tutor</b> at Edupia.vn{" "}
+        </li>
       </ul>
     ),
   },
@@ -59,7 +70,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
+            I am a full-stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with JavaScript, React, Nextjs, Node.js, MongoDB, Appwrite,
             HTML, CSS, and Git. I am a quick learner and I am always looking to
