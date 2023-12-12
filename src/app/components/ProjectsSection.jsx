@@ -11,7 +11,7 @@ const projectsData = [
     description: "Tools I used: React, TailwindCSS, Nextjs, Resend.",
     image: "/images/projects/1.png",
     tag: ["All", "JavaScript"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/hoangglong-nguyen/portfolio",
     previewUrl: "/",
   },
   {
@@ -47,7 +47,8 @@ const projectsData = [
   {
     id: 5,
     title: "Messenger Clone App",
-    description: "Google and Github Authentication, Live messaging with Pusher",
+    description:
+      "Google and Github Authentication, Live messaging with Pusher.",
     image: "/images/projects/5.png",
     tag: ["All", "TypeScript"],
     gitUrl: "https://github.com/hoangglong-nguyen/nextjs-messenger-clone-app",
@@ -57,7 +58,8 @@ const projectsData = [
   {
     id: 6,
     title: "Ticketing App",
-    description: "Simple CRUD Ticketing App using nextjs, MongoDB, TailwindCSS",
+    description:
+      "Simple CRUD Ticketing App using nextjs, MongoDB, TailwindCSS.",
     image: "/images/projects/6.png",
     tag: ["All", "JavaScript"],
     gitUrl: "https://github.com/hoangglong-nguyen/nextjs-ticketing-app",
