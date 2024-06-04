@@ -5,17 +5,9 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
+  
   {
     id: 1,
-    title: "Portfolio Website",
-    description: "Tools I used: React, TailwindCSS, Nextjs, Resend.",
-    image: "/images/projects/1.png",
-    tag: ["All", "JavaScript"],
-    gitUrl: "https://github.com/hoangglong-nguyen/portfolio",
-    previewUrl: "/",
-  },
-  {
-    id: 2,
     title: "Developer's Blog Website",
     description:
       "Responsive Blog App with pagination using Contentlayer and Supabase.",
@@ -25,7 +17,7 @@ const projectsData = [
     previewUrl: "https://devs-blog-app-hoang-long-nguyens-projects.vercel.app/",
   },
   {
-    id: 3,
+    id: 2,
     title: "E-commerce Web App Flowmazon",
     description:
       "E-commerce Web App with anonymous shopping cart and Google authentication.",
@@ -35,17 +27,9 @@ const projectsData = [
     previewUrl:
       "https://nextjs-ecommerce-app-hoang-long-nguyens-projects.vercel.app/",
   },
+  
   {
-    id: 4,
-    title: "Instagram Clone App Snapgram",
-    description: "Interactive social media app using Appwrite.",
-    image: "/images/projects/4.png",
-    tag: ["All", "TypeScript"],
-    gitUrl: "https://github.com/hoangglong-nguyen/snapgram-app",
-    previewUrl: "https://snapgram-app-hoang-long-nguyens-projects.vercel.app/",
-  },
-  {
-    id: 5,
+    id: 3,
     title: "Messenger Clone App",
     description:
       "Google and Github Authentication, Live messaging with Pusher.",
@@ -56,7 +40,7 @@ const projectsData = [
       "https://nextjs-messenger-clone-app-hoang-long-nguyens-projects.vercel.app/",
   },
   {
-    id: 6,
+    id: 4,
     title: "Ticketing App",
     description:
       "Simple CRUD Ticketing App using nextjs, MongoDB, TailwindCSS.",
