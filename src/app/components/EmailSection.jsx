@@ -51,14 +51,7 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="socials flex flex-row gap-2">
-          <a href="https://github.com/hoangglong-nguyen" target="_blank">
-            <Image src={GithubIcon} alt="Github Icon" />
-          </a>
-          <a href="https://linkedin.com/in/hoang-long-nguyen-679812193" target="_blank">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
-          </a>
-        </div>
+       
       </div>
       <div>
         {emailSubmitted ? (
